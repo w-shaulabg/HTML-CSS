@@ -3,5 +3,7 @@
 <h3>h3タグ</h3>
 <p>pタグ</p>
 <p>pタグ</p>
-<span>spanタグ</span>
+<div>
+  <span>spanタグ</span>
+</div>
 <span>spanタグ</span>
