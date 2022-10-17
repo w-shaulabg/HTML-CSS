@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -5,4 +8,15 @@
   <title>Document</title>
 </head>
 
-<h3 class="">h3タグ</h3>
+<body>
+  <header>
+    <h3 class="h3">h3タグ</h3>
+    <style>
+    .h3 {
+      color: purple;
+    }
+    </style>
+  </header>
+</body>
+
+</html>
