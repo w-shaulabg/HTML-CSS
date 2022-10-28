@@ -11,9 +11,9 @@
 
 <body class="body">
   <header class="header">
-    <div class="header__wrapper">
-      <span class="header__title">タイトル</span>
-      <span class="header__content">内容</span>
+    <div>
+      <span>タイトル</span>
+      <span>内容</span>
     </div>
   </header>
 
