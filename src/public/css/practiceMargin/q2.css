@@ -1,0 +1,19 @@
+.body {
+  background-color: gray;
+}
+
+.header {
+  background-color: orange;
+}
+
+.main {
+  background-color: green;
+}
+
+.main__topContentText {
+  margin-right: 170px;
+}
+
+.footer {
+  background-color: pink;
+}
