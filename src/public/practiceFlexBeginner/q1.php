@@ -12,7 +12,7 @@
 <body>
   <main>
 
-    <div>
+    <div class=buttonsWrapper>
 
       <div>
         <button class="button">ボタン1</button>
