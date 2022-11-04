@@ -1,0 +1,10 @@
+.buttonsWrapper {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 20px;
+}
+
