@@ -1,0 +1,19 @@
+.topButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.middleButtonsWrapper {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.bottomButtonsWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button {
+  padding: 20px;
+}
