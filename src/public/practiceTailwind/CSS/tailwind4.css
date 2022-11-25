@@ -1,0 +1,91 @@
+
+.padding{
+  padding: 96px 20px 96px 20px;
+}
+
+.title{
+  color: black;
+  font-size: 1.875rem;
+  margin: 0px 0px 10px 0px
+}
+
+.marginL{
+  margin-left:2%;
+}
+
+.textL {
+  color: #444444;
+flex-wrap: wrap;
+width: 750px;
+
+}
+.textR {
+  font-size: 0.95rem;
+  color: #444444;
+}
+
+.display{
+  display:flex;
+  justify-content: space-around;
+  margin: auto auto 30px 30px;
+}
+
+.link {
+  color:#136FFF;
+  text-decoration: none;
+}
+
+.space{
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  line-height: 1em;
+}
+.border{
+    border-right:1px solid lightgray;
+    padding-right:5%; 
+}
+
+.vertical{
+  margin-top: 3%;
+}
+.cate{
+  margin-top: 0px;
+  margin-bottom: 0.75rem;
+}
+
+.arrow{
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 16px;
+  color: #000;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 15px;
+}
+.arrow::before,
+.arrow::after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+}
+
+.sample::before{
+  left: 6px;
+  width: 14px;
+  height: 2px;
+  background: #136FFF;
+}
+.sample::after{
+  left: 6px;
+  width: 12px;
+  height: 12px;
+  border-top: 1px solid #136FFF;
+  border-right: 1px solid #136FFF;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

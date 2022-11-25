@@ -1,0 +1,18 @@
+.order {
+  display:flex;
+  
+}
+
+.interval {
+  margin-right:20px;
+}
+.blue {
+  color: #5D99FF;
+  text-decoration: none;
+}
+
+.gray{
+  color:#DDDDDD;
+  text-decoration: none;
+}
+
