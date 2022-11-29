@@ -1,0 +1,57 @@
+.flex{
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+}
+.flex2{
+  display: flex;
+  list-style: none;
+}
+
+.flex3{
+  display:flex;
+  justify-content: center;
+}
+
+.fullName{
+  margin: 10px 0px;
+  font-size: 1rem;
+}
+.nameAndText{
+  font-size: 0.9rem;
+}
+
+.profile{
+  width: 120px;
+  height: auto;
+}
+.bicycle{
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.marginBicycle{
+  margin-left: 30px;
+}
+
+.marginBicycleUnder{
+  margin-bottom: 100px;
+}
+
+.marginBicycleUnderAbout {
+  text-align: center;
+}
+
+.guy{
+  border-radius: 50%;
+    width:  100px;
+    height: 100px;
+}
+
+img {
+  max-width: 100px;
+}
