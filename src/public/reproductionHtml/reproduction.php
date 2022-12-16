@@ -13,42 +13,41 @@
 
 <body>
 
-  <header class="flex">
-    <div>
-      <a href="reproduction.php"> <img class="profile" src="https://code-step.com/demo/html/profile/img/logo.svg"
-          alt="profile"></a>
+  <header class="header">
+    <h1 class="header__profile">
+      <a href="reproduction.php"> <img src="https://code-step.com/demo/html/profile/img/logo.svg" alt="profile"></a>
+    </h1>
+    <div class="header__space">
+      <ul class="header__list">
+        <li>
+          <a class="header__link" href="#about">About</a>
+        </li>
+
+        <li class="header__itemList">
+          <a class="header__link" href="#bicycle">Bicycle</a>
+        </li>
+      </ul>
     </div>
-
-    <ul class="flex2">
-      <li>
-        <a class="underline" href="#about">About</a>
-      </li>
-
-      <li class="margin-left30px">
-        <a class="underline" href="#bicycle">Bicycle</a>
-      </li>
-    </ul>
-
   </header>
 
   <main>
 
-    <div class="margin-bottom100">
-      <img class="bicycle" src="https://code-step.com/demo/html/profile/img/mainvisual.jpg" alt="テキストテキストテキスト">
+    <div class="main">
+      <img class="main__img" src="https://code-step.com/demo/html/profile/img/mainvisual.jpg" alt="テキストテキストテキスト">
     </div>
 
-    <section class="center">
+    <section class="main__itemCenter">
 
-      <h1 id="about" class="text-underline">About</h1>
+      <h1 id="about" class="main__underline">About</h1>
 
-      <div class="flex3">
+      <div class="main__item">
 
         <div>
           <img class="guy" src="https://code-step.com/demo/html/profile/img/about.jpg" alt="テキストテキストテキスト">
         </div>
 
-        <div class="nameAndText">
-          <h1 class="Margin-10-0">SAITO TAKAHIRO</h1>
+        <div class="main__contents">
+          <h1 class="main__textMargin">SAITO TAKAHIRO</h1>
           <div>テキストテキストテキストテキストテキストテキストテキスト</div>
           <div>テキストテキストテキストテキストテキストテキストテキスト</div>
           <div>テキストテキストテキストテキストテキストテキストテキスト</div>
@@ -58,27 +57,27 @@
 
     </section>
 
-    <section class="center">
+    <section class="main__itemCenter">
 
-      <h2 id="bicycle" class="text-underline margin-bottom">Bicycle</h2>
+      <h2 id="bicycle" class="main__underline main__marginBottom">Bicycle</h2>
 
-      <ul class="flex4 li">
+      <ul class="main__list main__listStyle">
 
-        <li class="bicycle-li">
+        <li class="main__imgStyle">
           <img src="https://code-step.com/demo/html/profile/img/bicycle1.jpg" alt="テキストテキスト">
-          <h3 class="title">タイトルタイトル</h3>
+          <h3 class="main__imgTitle">タイトルタイトル</h3>
           <p>テキストテキストテキスト</p>
         </li>
 
-        <li class="bicycle-li">
+        <li class="main__imgStyle">
           <img src="https://code-step.com/demo/html/profile/img/bicycle2.jpg" alt="テキストテキスト">
-          <h3 class="title">タイトルタイトル</h3>
+          <h3 class="main__imgTitle">タイトルタイトル</h3>
           <p>テキストテキストテキスト</p>
         </li>
 
-        <li class="bicycle-li">
+        <li class="main__imgStyle">
           <img src="https://code-step.com/demo/html/profile/img/bicycle3.jpg" alt="テキストテキスト">
-          <h3 class="title">タイトルタイトル</h3>
+          <h3 class="main__imgTitle">タイトルタイトル</h3>
           <p>テキストテキストテキスト</p>
         </li>
 

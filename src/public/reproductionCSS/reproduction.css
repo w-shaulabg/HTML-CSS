@@ -1,35 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 a,a:hover,a:visited{
   color: inherit;
 }
 
-.bicycle {
-  width: 100%;
-  max-width: 1920px;
-  height: 600px;
-  object-fit: cover;
-}
-
-.bicycle-li {
-  width: 32%;
-  text-align: center;
-}
-
-.center {
-  text-align: center;
-}
-
-.flex {
+/*header*/
+.header {
   display: flex;
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
   align-items: center;
 }
-.flex2 {
-  display: flex;
+
+.header__profile {
+  padding: 10px 0;
+  width: 120px;
+  line-height: 1px;
 }
 
-.flex3 {
+.header__space {
+  padding: 10px 0 10px 0;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+}
+.header__itemList {
+  margin-left: 30px;
+}
+
+.header__link {
+  text-decoration-line: none; 
+}
+
+/* main */
+
+.main__img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.main__imgStyle {
+  width: 32%;
+  text-align: center;
+}
+
+.main__itemCenter {
+  text-align: center;
+}
+
+
+.main__item {
   display:flex;
   justify-content: center;
   margin: 0 auto 100px auto;
@@ -37,18 +65,12 @@ a,a:hover,a:visited{
   padding: 0 4%;
 }
 
-.flex4 {
+.main__list {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 100px auto;
   max-width: 960px;
   padding: 0 4%;
-}
-
-.footer {
-  text-align:  center;
-  font-size: 0.5rem;
-  padding: 10px 0;
 }
 
 .guy {
@@ -62,50 +84,44 @@ img {
   max-width: 100%;
 }
 
-li {
+.main__listStyle {
   list-style: none;
-  width: 32%; 
+  box-sizing: inherit;
 }
 
-.Margin-10-0 {
+.main__textMargin {
   margin: 10px 0px;
   font-size: 1rem;
   text-align: left;
 }
 
-.margin-left30px {
-  margin-left: 30px;
-}
-
-.margin-bottom {
+.mainn__marginBottom {
   margin-bottom:60px;
 }
-.margin-bottom100 {
+.main {
   margin-bottom: 100px;
 }
 
-.text-underline {
+.main__underline {
   display: inline-block;
   text-align: center;
   border-bottom:solid 1px;
   font-size: 2rem;
+  margin:0 0 60px 0;
 }
 
-
-.nameAndText {
+.main__contents {
   font-size: 0.9rem;
 }
 
-.profile {
-  width: 120px;
-  height: auto;
-}
-
-.title {
+.main__imgTitle {
   margin: 10px 0;
   font-size : 1rem;
 }
 
-.underline {
-  text-decoration-line: none; 
+/* footer */
+.footer {
+  text-align:  center;
+  font-size: 0.5rem;
+  padding: 10px 0;
 }
