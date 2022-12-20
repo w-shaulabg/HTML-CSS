@@ -1,0 +1,35 @@
+* {
+  margin:0;
+}
+
+/* header */
+.header {
+  max-width: 960px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__title {
+
+}
+
+.header__list {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 0.9rem;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+
+/* main */
+.main__wrapper {
+  display: flex;
+}
