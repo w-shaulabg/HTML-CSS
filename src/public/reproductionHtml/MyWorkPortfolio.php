@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>My work - Portfolio</title>
+  <link rel="shortcut icon" href="../reproductionImg/カメラアイコン8.jpeg">
   <link rel="stylesheet" href="../reproductionCSS/MyWorkPortfolio.css">
 </head>
 
@@ -16,23 +17,21 @@
       </h1>
     </div>
 
-    <div class="header__wrapper">
-      <li class="header__list">
-        About
-      </li>
-      <li class="header__list">
-        Works
-      </li>
-      <li class="header__list">
-        News
-      </li>
-      <li class="header__list" href="#contact">
-        Contact
-      </li>
-      <li class="header__list">
-        <a href="https://www.instagram.com/" target="_blank">
-      </li>
-    </div>
+    <nav>
+      <ul class="header__wrapper">
+
+        <li class="header__list">About</li>
+        <li class="header__list">Works</li>
+        <li class="header__list">News</li>
+        <li class="header__list" href="#contact">Contact</li>
+        <li class="header__list">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="icon" src="https://code-step.com/demo/html/portfolio1/img/icon-instagram.png">
+          </a>
+        </li>
+
+      </ul>
+    </nav>
   </header>
 
 

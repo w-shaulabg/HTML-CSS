@@ -1,9 +1,15 @@
 * {
-  margin:0;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::after, *::before { 
+  background-repeat: no-repeat;
+  box-sizing: inherit;
 }
 
 /* header */
-.header {
+header {
   max-width: 960px;
   height: 270px;
   margin: 0 auto;
@@ -13,11 +19,7 @@
   justify-content: space-between;
 }
 
-.header__title {
-
-}
-
-.header__list {
+ .header__list {
   list-style: none;
   margin-left: 30px;
   font-size: 0.9rem;
@@ -25,9 +27,11 @@
 
 .header__wrapper {
   display: flex;
-  justify-content: right;
-}
+} 
 
+.icon {
+  width:20px;
+}
 
 /* main */
 .main__wrapper {
