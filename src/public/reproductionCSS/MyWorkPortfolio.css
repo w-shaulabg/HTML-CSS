@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, :after, :before { 
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+/* header */
+.header {
+  max-width: 960px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .header__list {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 0.9rem;
+}
+
+.header__wrapper {
+  display: flex;
+} 
+
+.icon {
+  width:20px;
+}
+
+/* main */
+.main__wrapper {
+  display: flex;
+}
