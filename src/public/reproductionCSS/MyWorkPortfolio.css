@@ -8,6 +8,10 @@
   box-sizing: inherit;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 /* header */
 header {
   max-width: 960px;
