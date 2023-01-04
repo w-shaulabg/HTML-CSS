@@ -114,6 +114,7 @@
         </div>
       </div>
   </section>
+
   <section class="page">
     <div class="main__text__content">
       <ul class="main__list__title">
@@ -150,7 +151,6 @@
         </ul>
       </div>
     </div>
-
 
     <div class="main__text__content">
       <ul class="main__list__title">
