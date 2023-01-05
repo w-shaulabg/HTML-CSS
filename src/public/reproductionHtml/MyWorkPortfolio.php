@@ -25,7 +25,7 @@
         <li class="header__list">News</li>
         <li class="header__list" href="#contact">Contact</li>
         <li class="header__list">
-          <a href="https://www.instagram.com/" target="_blank"> -->
+          <a href="https://www.instagram.com/" target="_blank">
             <img class="icon" src="https://code-step.com/demo/html/portfolio1/img/icon-instagram.png">
           </a>
         </li>
