@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>My work - Portfolio</title>
   <link rel="shortcut icon" href="../reproductionImg/カメラアイコン8.jpeg">
-  <link rel="stylesheet" href="../reproductionCSS/MyWorkPortfolio.css">
+  <link rel="stylesheet" href="../MyWorkPortfolioCSS/MyWorkPortfolio.css">
 </head>
 
 <body>
