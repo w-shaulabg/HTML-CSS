@@ -52,7 +52,7 @@
 
         <div>
           <div>
-            E-mail
+            Email
           </div>
           <div>
             <input type="email" name="email" value="" placeholder="Email">
