@@ -143,9 +143,7 @@
         <ul class="list__style2">
           <li>■内容</li>
           <li>入社後、技術部配属</li>
-          <li>北海道内のダムや河川に設置された観測装置の取り付け工事及び保守点検
-            <span style="opacity: 0;">スペーススペーススペース</span>
-          </li>
+          <li>北海道内のダムや河川に設置された観測装置の取り付け工事及び保守点検</li>
           <li>地すべり観測装置に取り付け工事及び保守点検</li>
           <li>自己都合により退職</li>
         </ul>
@@ -169,7 +167,8 @@
           <li>■期間</li>
           <li>2021年8月1日</li>
           <li>&emsp;</li>
-          <li>2021年11月</li>
+          <li>2021年11月30日
+          </li>
         </ul>
       </div>
 
@@ -177,10 +176,7 @@
         <ul class="list__style2">
           <li>■内容</li>
           <li>入社後、3カ月間の使用期間を経て正式雇用</li>
-          <li>
-            成形課に配属され、ペットボトルの製造及びペットボトルを製造する機器の点検及び整備に従事
-            <span style="opacity: 0;">スペース</span>
-          </li>
+          <li>成形課に配属され、ペットボトルの製造及びペットボトルを製造する機器の点検及び整備に従事</li>
           <li>自己都合により退職</li>
         </ul>
       </div>
@@ -213,6 +209,8 @@
           <li>&emsp;</li>
           <li>&emsp;</li>
           <li>&emsp;</li>
+          <li>&emsp;</li>
+          <li>&emsp;</li>
         </ul>
       </div>
 
@@ -223,12 +221,13 @@
           <li>PHP、HTML、CSS、SQL</li>
           <li>◇制作アプリ等</li>
           <li>
-            PHPを使用したお問い合わせフォーム、予約フォームの作成、アンケートフォームの作成
-            <span style="opacity: 0;">スペーススペ</span>
+            お問い合わせフォーム(PHPフルスクラッチ)
           </li>
+          <li>予約フォーム(フロントはTailwind CSS、バックエンドはPHP)</li>
+          <li>アンケートフォーム(フロントはTailwind CSS、バックエンドはPHP)</li>
           <li>HTML、CSSを使用したWEBページの作成</li>
           <li>◇使用ツール</li>
-          <li>Dockerの環境構築及び立ち上げ</li>
+          <li>Dockerの環境構築及び立ち上げ(スクールのDocker環境を使用し開発)</li>
           <li>Githubの環境構築及び使用方法</li>
           <li>VScodeの使用方法</li>
           <li>PHP MyAdmin</li>
@@ -237,6 +236,23 @@
     </div>
     </main>
   </section>
+
+  <section class="page">
+
+    <div class="main__text__content">
+      <ul class="main__list__title">
+        <li>
+          <h2><span class="main__job__title">自己PR</span></h2>
+        </li>
+      </ul>
+    </div>
+
+    <div class="list__style3 li">
+      <li>・</li>
+    </div>
+
+  </section>
+
 
 </body>
 
