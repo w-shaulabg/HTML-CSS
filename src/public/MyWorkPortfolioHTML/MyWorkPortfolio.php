@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My work - Portfolio</title>
+  <title>My Life - Portfolio</title>
   <link rel="shortcut icon" href="../reproductionImg/カメラアイコン8.jpeg">
-  <link rel="stylesheet" href="../reproductionCSS/MyWorkPortfolio.css">
+  <link rel="stylesheet" href="../MyWorkPortfolioCSS/MyWorkPortfolio.css">
 </head>
 
 <body>
@@ -20,12 +20,12 @@
     <nav>
       <ul class="header__wrapper">
 
-        <li class="header__list">About</li>
-        <li class="header__list">Works</li>
-        <li class="header__list">News</li>
-        <li class="header__list" href="#contact">Contact</li>
+        <li class="header__list"><a href="#about">About</a></li>
+        <li class="header__list"><a href="#about">Fishing</a></li>
+        <li class="header__list"><a href="#about">Result</a></li>
+        <li class="header__list"><a href="#contact">Contact</a></li>
         <li class="header__list">
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/saichan_infinity" target="_blank">
             <img class="icon" src="https://code-step.com/demo/html/portfolio1/img/icon-instagram.png">
           </a>
         </li>
@@ -37,42 +37,121 @@
 
 
   <main>
-    <section id="contact">
+
+    <picture>
+      <img class="main__img" src="../MyWorkPortfolioImg/カムイ岬.JPG" alt="テキストテキストテキスト">
+    </picture>
+
+    <section id="about">
+
+      <div class="main__wrapper__content">
+        <h2 class="section__title">About</h2>
+
+        <ul class="main__about">
+          <li>
+            saichan
+          </li>
+          <li>
+            Birthplace:Hokkaido<span>&nbsp;</span>Hakodate,Birthday:1991.8.16
+          </li>
+          <li>
+            tel:080-XXXX-XXXX
+          </li>
+          <li>
+            URL:XXXXXXXXX.co.jp
+          </li>
+          <li>
+            自然と釣りが大好きで北海道を駆け巡ります！
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <div class="main__wrapper__content">
+      <h2 class="section__title">Works</h2>
+
+      <section class="main__wrapper">
+
+        <ul class="main__picture__content">
+          <li>
+            <img src="../MyWorkPortfolioImg/岩内朝マヅメ.JPG">
+          </li>
+          <li>
+            <img src="../MyWorkPortfolioImg/稚内朝マヅメ.JPG">
+          </li>
+          <li>
+            <img src="../MyWorkPortfolioImg/尻別川.JPG">
+          </li>
+          <li>
+            <img src="../MyWorkPortfolioImg/サクラマス2022.4.JPG">
+          </li>
+          <li>
+            <img src="../MyWorkPortfolioImg/オショロコマ.JPG">
+          </li>
+          <li>
+            <img src="../MyWorkPortfolioImg/ヒメマス.jpg">
+          </li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="main__wrapper__content">
+      <h2 class="section__title">Result</h2>
+
+      <!-- < class="main__wrapper"> -->
+
+      <dl class="main__result">
+        <dt class="main__result__border">2021.10</dt>
+        <dd class="main__result__border">
+          南茅部にてロックフィッシュを狙っていると、とんでもなく強い引き！なんとその正体はワラサ！</dd>
+        <dt>2021.8</dt>
+        <dd>
+          室蘭沖にてボートをレンタル！相方は７０のヒラメキャッチ！！くやし〜(>_<)けどナイスフィッシュ！！ </dd>
+        <dt>2021.7</dt>
+        <dd>豊浦町にて、磯をピッチングでテンポ良く探っていると...59とナイスなヒラメ！</dd>
+        <dt>2021.6</dt>
+        <dd>道北幌内川にてニジマス！死ぬほど暑かった！！近年の北海道は暑いね！！</dd>
+        <dt>2021.4</dt>
+        <dd>熊石鮎川海岸にて銀鱗が美しいサクラマス！</dd>
+      </dl>
+
+    </section>
+    </div>
+
+    <section class="main__wrapper__content" id="contact">
+
       <form action="complete.php" method="post">
-        <h2 size="5"><b>Contact</b></h2>
-
-        <div class="main__wrapper">
-          <div>
-            NAME
-          </div>
-          <div>
-            <input type="text" name="title" value="" placeholder="タイトル">
-          </div>
-        </div>
+        <h2 class="section__title">Contact</h2>
 
         <div>
-          <div>
-            E-mail
-          </div>
-          <div>
-            <input type="email" name="email" value="" placeholder="Email">
-          </div>
+          <dl class="main__contact__wrapper main__contact">
+            <dt>NAME</dt>
+            <dd><input type="text" name="title" value="" placeholder="タイトル"></dd>
+
+            <dt>E-mail</dt>
+            <dd><input type="email" name="email" value="" placeholder="Email"></dd>
+
+            <dt>MASSAGE</dt>
+            <dd>
+              <textarea name="content" placeholder="お問合せ内容(1000文字までをお書きください。)"></textarea>
+            </dd>
+          </dl>
         </div>
 
-        <div>
-          <div>
-            MASSAGE
-          </div>
-          <div>
-            <textarea cols="40" rows="8" name="content" placeholder="お問合せ内容(1000文字までをお書きください。)"></textarea>
-          </div>
-        </div>
-        <div>
+        <div class="sending">
           <input type="submit" name="confirm" value="送信"><br>
         </div>
+
       </form>
-      <main>
     </section>
+
+  </main>
+
+  <footer>
+    <p>© 2021 My Life</p>
+  </footer>
+
 </body>
 
 </html>
