@@ -5,7 +5,7 @@ $massage = filter_input(INPUT_POST, 'massage');
 
 $errors = [];
 if (empty($name)||empty($email)||empty($massage)) {
-  $errors[] =  "「タイトル」「Eメール」「お問合せ内容」のどれかが記入されてませんので、もう一度ご確認ください(^^;)";
+  $errors[] =  "「お名前」「Eメール」「お問合せ内容」のどれかが記入されてませんので、もう一度ご確認ください(^^;)";
 }
 
 $dbUserName = 'root';
