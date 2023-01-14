@@ -76,7 +76,7 @@ max-width: 1160px;
 .main__wrapper__content {
   max-width: 960px;
   margin: 0 auto 130px auto;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   padding: 0 4%;
 }
 
@@ -114,13 +114,13 @@ justify-content: space-between;
 
 .main__result dt {
   border-bottom: 1px solid lightgray;
-  width: 10%;
+  width: 15%;
   padding: 15px 0;
 }
 
 .main__result dd {
   border-bottom: 1px solid lightgray;
-  width: 90%;
+  width: 80%;
   padding: 15px 0;
 }
 
