@@ -128,7 +128,7 @@
         <div>
           <dl class="main__contact__wrapper main__contact">
             <dt>NAME</dt>
-            <dd><input type="text" name="name" value="" placeholder="タイトル"></dd>
+            <dd><input type="text" name="name" value="" placeholder="お名前"></dd>
 
             <dt>E-mail</dt>
             <dd><input type="email" name="email" value="" placeholder="Email"></dd>
