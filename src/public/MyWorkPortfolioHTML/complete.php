@@ -5,7 +5,7 @@ $massage = filter_input(INPUT_POST, 'massage');
 
 $errors = [];
 if (empty($name)||empty($email)||empty($massage)) {
-  $errors[] =  "「タイトル」「Eメール」「お問合せ内容」のどれかが記入されてません！";
+  $errors[] =  "「タイトル」「Eメール」「お問合せ内容」のどれかが記入されてませんので、もう一度ご確認ください(^^;)";
 }
 
 $dbUserName = 'root';
@@ -27,23 +27,36 @@ $pdo = new PDO(
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>My work - MyWorkPortfolio</title>
+  <title>My Life - Portfolio</title>
+  <link rel="shortcut icon" href="../reproductionImg/カメラアイコン8.jpeg">
+  <link rel="stylesheet" href="../MyWorkPortfolioCSS/MyWorkPortfolio.css">
 </head>
 
-<body>
+<body class="body__text">
   <div>
-    <?php if (!empty($errors)): ?>
-    <?php foreach ($errors as $error):?>
-    <p><?php echo $error . "\n";?></p>
-    <?php endforeach;?>
-    <a href="index.php">送信画面へ</a>
+    <img class="complete__img" src="../MyWorkPortfolioImg/島牧歌島.JPG">
+  </div>
+  <div>
+    <div class="body_message__margin">
+      <?php if (!empty($errors)): ?>
+      <?php foreach ($errors as $error):?>
+      <p><?php echo $error . "\n";?></p>
+      <?php endforeach;?>
+    </div>
+    <div class="body__link__send">
+      <a href="MyWorkPortfolio.php">戻る</a>
+    </div>
     <?php endif;?>
+
     <?php if (empty($errors)): ?>
-    <h2>送信完了！！</h2>
-    <a href="index.php">送信画面へ</a><br><br>
-    <a href="history.php">送信履歴へ</a>
+    <h2 class="body_message__margin">メッセージありがとうございます！</h2>
+    <div>今後も気軽にご連絡いただけると嬉しいです✨</div>
+    <div class="body__link__send">
+      <a href="MyWorkPortfolio.php">戻る</a>
+    </div>
     <?php endif;?>
-    <div>
+
+
 </body>
 
 

@@ -42,9 +42,9 @@
       <img class="main__img" src="../MyWorkPortfolioImg/カムイ岬.JPG" alt="テキストテキストテキスト">
     </picture>
 
-    <section id="about">
+    <section class="main__wrapper__content" id="about">
 
-      <div class="main__wrapper__content">
+      <div>
         <h2 class="section__title">About</h2>
 
         <ul class="main__about">
@@ -127,14 +127,14 @@
         <div>
           <dl class="main__contact__wrapper main__contact">
             <dt>NAME</dt>
-            <dd><input type="text" name="title" value="" placeholder="タイトル"></dd>
+            <dd><input type="text" name="name" value="" placeholder="タイトル"></dd>
 
             <dt>E-mail</dt>
             <dd><input type="email" name="email" value="" placeholder="Email"></dd>
 
             <dt>MASSAGE</dt>
             <dd>
-              <textarea name="content" placeholder="お問合せ内容(1000文字までをお書きください。)"></textarea>
+              <textarea name="massage" placeholder="お問合せ内容(1000文字までをお書きください。)"></textarea>
             </dd>
           </dl>
         </div>

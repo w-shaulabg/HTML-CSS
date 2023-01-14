@@ -70,7 +70,7 @@ main li {
 }
 
 .main__wrapper {
-max-width: 960px;
+max-width: 1160px;
 }
 
 .main__wrapper__content {
@@ -170,4 +170,31 @@ footer {
   font-size: 0.5rem;
   padding: 15px 20px;
   background-color: lightgreen;
+}
+
+/* MyWorkPortfolio.php */
+
+.complete__img {
+  max-width: 1920px;
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.body__text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.body_message__margin {
+  margin-top: 100px;
+}
+
+.body__link__send {
+  margin: 100px auto 0 auto;
+  color: #222222;
+  text-decoration: none;
+  background-color: lightgreen;
+  width:100px;
+
 }
